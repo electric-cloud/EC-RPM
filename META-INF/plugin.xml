@@ -1,0 +1,14 @@
+<plugin>
+  <key>EC-RPM</key>
+  <label>EC-RPM</label>
+  <version>1.0.0</version>
+  <author>Electric Cloud</author>
+  <authorUrl>https://electric-cloud.com/</authorUrl>
+  <category>Installers</category>
+  <commander-version min="6.0" />
+  <description>Installs RPM file</description>
+  <configure>ec_config</configure>
+  <pluginWizardBased>true</pluginWizardBased>
+  <depends min="1.4.1">EC-PluginManager</depends>
+  <help>help.xml</help>
+</plugin>
